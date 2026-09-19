@@ -23,6 +23,16 @@ class Settings(BaseSettings):
     CLINIC_EMAIL: str = "info@happysmilesdental.in"
     CLINIC_NAME: str = "Happy Smiles Dental Clinic"
 
+    # CORS: Allowed origins (comma-separated list, e.g. "https://my-site.vercel.app,http://localhost:3000" or "*")
+    ALLOWED_ORIGINS: str = os.getenv("ALLOWED_ORIGINS", "*")
+
+    @property
+    def cors_origins(self) -> list[str]:
+        raw = self.ALLOWED_ORIGINS.strip()
+        if not raw or raw == "*":
+            return ["*"]
+        return [origin.strip().rstrip("/") for origin in raw.split(",") if origin.strip()]
+
     class Config:
         env_file = ".env"
         extra = "allow"

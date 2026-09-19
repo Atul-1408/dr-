@@ -25,10 +25,13 @@ app = FastAPI(
     lifespan=lifespan
 )
 
-# Configure CORS
+# Configure CORS from environment variable ALLOWED_ORIGINS
+# Allows user to set ALLOWED_ORIGINS="https://my-site.vercel.app,http://localhost:3000" or leave as "*"
+origins = settings.cors_origins
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Allows all origins in development and production
+    allow_origins=origins,
+    allow_origin_regex=r"^https:\/\/.*\.vercel\.app$" if "*" not in origins else None,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
