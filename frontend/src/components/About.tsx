@@ -117,7 +117,7 @@ export default function About() {
                 href="#doctor"
                 className="inline-flex items-center gap-2 px-5 py-3 rounded-full text-sm font-semibold text-slate-700 hover:text-[#0A5C67] hover:bg-teal-50 transition-colors"
               >
-                <span>Meet Dr. Aisha Ojha</span>
+                <span>Meet Dr. Aaisha Ojha</span>
               </a>
             </div>
           </motion.div>
@@ -142,7 +142,7 @@ export default function About() {
                 <div className="relative w-full aspect-[16/9] bg-slate-900/5">
                   <Image
                     src="/assets/happy-smiles-banner.png"
-                    alt="Official Happy Smiles Dental Clinic banner featuring Dr. Aisha Ojha BDS and clinic treatments"
+                    alt="Official Happy Smiles Dental Clinic banner featuring Dr. Aaisha Ojha BDS and clinic treatments"
                     fill
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
                     className="object-contain object-center"
@@ -202,7 +202,7 @@ export default function About() {
               <div className="flex items-center justify-between px-5 py-3.5 bg-slate-900 text-white">
                 <div className="flex items-center gap-2">
                   <span className="font-bold text-sm">Official Happy Smiles Dental Clinic Banner</span>
-                  <span className="text-xs text-teal-400 font-normal">| Dr. Aisha Ojha, BDS</span>
+                  <span className="text-xs text-teal-400 font-normal">| Dr. Aaisha Ojha, BDS</span>
                 </div>
                 <button
                   type="button"
@@ -280,7 +280,7 @@ export default function About() {
                   Located in the heart of Sangharsh Nagar, Sakinaka (Andheri East), Happy Smiles Dental Clinic was founded with a singular purpose: to make modern, high-quality dentistry accessible, gentle, and transparent for our local community.
                 </p>
                 <p>
-                  Led by <strong>Dr. Aisha Ojha (BDS, Dental Surgeon)</strong>, our clinic provides comprehensive dental treatments spanning restorative dentistry, rotary root canal therapy, soft-tissue laser applications, aesthetic smile enhancements, and prosthetic dentures.
+                  Led by <strong>Dr. Aaisha Ojha (BDS, Dental Surgeon)</strong>, our clinic provides comprehensive dental treatments spanning restorative dentistry, rotary root canal therapy, soft-tissue laser applications, aesthetic smile enhancements, and prosthetic dentures.
                 </p>
                 
                 <h4 className="text-base font-bold text-slate-800 pt-2">

@@ -2,10 +2,10 @@ export const CLINIC_INFO = {
   name: "Happy Smiles Dental Clinic",
   tagline: "Complete Dental Care, With Every Smile",
   doctor: {
-    name: "Dr. Aisha Ojha",
+    name: "Dr. Aaisha Ojha",
     qualification: "BDS (Dental Surgeon)",
     role: "Dental Surgeon & Consultant",
-    bio: "Dr. Aisha Ojha is a dedicated Dental Surgeon (BDS) committed to delivering gentle, ethical, and high-precision dental care. Practicing at Happy Smiles Dental Clinic in Sakinaka, Andheri (E), Dr. Ojha focuses on creating comfortable, anxiety-free experiences for every patient, combining modern conservative dentistry with personalized patient education.",
+    bio: "Dr. Aaisha Ojha is a dedicated Dental Surgeon (BDS) committed to delivering gentle, ethical, and high-precision dental care. Practicing at Happy Smiles Dental Clinic in Sakinaka, Andheri (E), Dr. Ojha focuses on creating comfortable, anxiety-free experiences for every patient, combining modern conservative dentistry with personalized patient education.",
     approach: "Every smile is unique. Our philosophy centers on preventive preservation, transparent treatment discussions, strict clinical sterilization, and patient comfort above all.",
     focusAreas: [
       "General & Cosmetic Dentistry",
@@ -18,7 +18,7 @@ export const CLINIC_INFO = {
     phone: "9029131396",
     displayPhone: "+91 90291 31396",
     email: "happysmilesdentalmumbai@gmail.com",
-    whatsappUrl: "https://wa.me/919029131396?text=Hello%20Dr.%20Aisha%2C%20I%20would%20like%20to%20book%20a%20dental%20appointment%20at%20Happy%20Smiles.",
+    whatsappUrl: "https://wa.me/919029131396?text=Hello%20Dr.%20Aaisha%2C%20I%20would%20like%20to%20book%20a%20dental%20appointment%20at%20Happy%20Smiles.",
     whatsappNumber: "919029131396"
   },
   address: {
@@ -65,7 +65,7 @@ export const CLINIC_SERVICES_DATA = [
     title: "Root Canal Treatment",
     slug: "root-canal-treatment",
     short_description: "Gentle, single-sitting rotary therapy designed to relieve severe tooth pain and preserve your natural tooth.",
-    full_description: "When tooth decay reaches the delicate inner pulp, a root canal safely removes the bacterial infection, cleans the canals, and seals them permanently. Using modern rotary handpieces and digital apex locators, Dr. Aisha Ojha ensures high precision with minimal patient discomfort.",
+    full_description: "When tooth decay reaches the delicate inner pulp, a root canal safely removes the bacterial infection, cleans the canals, and seals them permanently. Using modern rotary handpieces and digital apex locators, Dr. Aaisha Ojha ensures high precision with minimal patient discomfort.",
     icon: "Activity",
     benefits: ["Pain relief from deep cavities", "Saves natural tooth from extraction", "Single or minimal visits", "Crowned for lasting chewing strength"],
     is_active: true,
@@ -76,7 +76,7 @@ export const CLINIC_SERVICES_DATA = [
     title: "Laser Treatment",
     slug: "laser-treatment",
     short_description: "Modern soft-tissue dental laser for pain-free gum therapy, bacterial reduction, and fast healing.",
-    full_description: "Laser dentistry minimizes surgical bleeding and postoperative swelling. Dr. Aisha Ojha utilizes soft-tissue dental laser technology for cosmetic gum reshaping, periodontal pocket disinfection, frenectomies, and aphthous ulcer relief.",
+    full_description: "Laser dentistry minimizes surgical bleeding and postoperative swelling. Dr. Aaisha Ojha utilizes soft-tissue dental laser technology for cosmetic gum reshaping, periodontal pocket disinfection, frenectomies, and aphthous ulcer relief.",
     icon: "Zap",
     benefits: ["Scalpel-free & stitch-free", "Minimal bleeding & swelling", "Rapid healing & recovery", "High bacterial reduction"],
     is_active: true,
@@ -120,7 +120,7 @@ export const CLINIC_SERVICES_DATA = [
     title: "Extraction",
     slug: "extraction",
     short_description: "Atraumatic, gentle removal of unsalvageable teeth and problematic wisdom teeth with swift recovery.",
-    full_description: "When conservative therapy cannot save a severely damaged tooth, or when impacted wisdom teeth cause recurring infections, Dr. Aisha Ojha performs atraumatic extractions with gentle anesthesia and detailed post-care guidance.",
+    full_description: "When conservative therapy cannot save a severely damaged tooth, or when impacted wisdom teeth cause recurring infections, Dr. Aaisha Ojha performs atraumatic extractions with gentle anesthesia and detailed post-care guidance.",
     icon: "Scissors",
     benefits: ["Local anesthesia for comfort", "Bone preservation technique", "Quick recovery instructions", "Relieves persistent infection"],
     is_active: true,
@@ -156,7 +156,7 @@ export const CLINIC_FAQS = [
     answer: "Happy Smiles Dental Clinic provides comprehensive dental care under one roof, including Teeth Whitening, Root Canal Treatment, Soft-Tissue Laser Treatment, Ceramic & Zirconia Crown & Bridges, Complete & Partial Dentures, Dental Implants, Tooth Extractions, Cosmetic Dentistry, and Orthodontic Aligners & Braces."
   },
   {
-    question: "How can I book an appointment with Dr. Aisha Ojha?",
+    question: "How can I book an appointment with Dr. Aaisha Ojha?",
     answer: "You can book easily through our website booking form, call our clinic directly at 9029131396, or send a quick message on WhatsApp at +91 90291 31396. Our reception will confirm your slot promptly."
   },
   {
@@ -173,7 +173,7 @@ export const CLINIC_FAQS = [
   },
   {
     question: "What should I expect during my first general consultation?",
-    answer: "During your initial visit, Dr. Aisha Ojha conducts a thorough clinical examination, discusses any symptoms or dental history, and reviews appropriate diagnostic checks. We explain treatment options transparently with clear estimates before commencing any procedure."
+    answer: "During your initial visit, Dr. Aaisha Ojha conducts a thorough clinical examination, discusses any symptoms or dental history, and reviews appropriate diagnostic checks. We explain treatment options transparently with clear estimates before commencing any procedure."
   }
 ];
 
@@ -183,7 +183,7 @@ export const VERIFIED_TESTIMONIALS = [
     patient_name: "Rajesh Sharma",
     area: "Chandivali, Mumbai",
     rating: 5,
-    review: "Visited Dr. Aisha for root canal treatment. She is very gentle, explained each step patiently, and the procedure was completely pain-free. Very clean and hygienic clinic in Sangharsh Nagar.",
+    review: "Visited Dr. Aaisha for root canal treatment. She is very gentle, explained each step patiently, and the procedure was completely pain-free. Very clean and hygienic clinic in Sangharsh Nagar.",
     is_verified: true,
     display_order: 1
   },
@@ -192,7 +192,7 @@ export const VERIFIED_TESTIMONIALS = [
     patient_name: "Pooja Kadam",
     area: "Sakinaka, Andheri (E)",
     rating: 5,
-    review: "I was very nervous about getting dental work done, but Dr. Aisha made me feel totally at ease. Got teeth whitening done before my brother's wedding, and the results are fantastic!",
+    review: "I was very nervous about getting dental work done, but Dr. Aaisha made me feel totally at ease. Got teeth whitening done before my brother's wedding, and the results are fantastic!",
     is_verified: true,
     display_order: 2
   },
@@ -210,7 +210,7 @@ export const VERIFIED_TESTIMONIALS = [
     patient_name: "Sunita Patil",
     area: "Powai / Chandivali Farm Road",
     rating: 5,
-    review: "Brought my mother for her denture fitting. Dr. Aisha took multiple measurements to make sure it was comfortable and not pinching. Very respectful and caring doctor.",
+    review: "Brought my mother for her denture fitting. Dr. Aaisha took multiple measurements to make sure it was comfortable and not pinching. Very respectful and caring doctor.",
     is_verified: true,
     display_order: 4
   }
@@ -222,7 +222,7 @@ export const GALLERY_ITEMS_DATA = [
     title: "Official Clinic Banner (High Definition)",
     category: "Clinic Exterior",
     image_url: "/assets/happy-smiles-banner.png",
-    alt_text: "Official Happy Smiles Dental Clinic banner displaying Dr. Aisha Ojha and clinic services",
+    alt_text: "Official Happy Smiles Dental Clinic banner displaying Dr. Aaisha Ojha and clinic services",
     display_order: 1
   },
   {
@@ -259,10 +259,10 @@ export const GALLERY_ITEMS_DATA = [
   },
   {
     id: 6,
-    title: "Dr. Aisha Ojha Consulting Patient",
+    title: "Dr. Aaisha Ojha Consulting Patient",
     category: "Doctor",
-    image_url: "/assets/dr-aisha-portrait.jpg",
-    alt_text: "Dr. Aisha Ojha, BDS Dental Surgeon at Happy Smiles Dental Clinic",
+    image_url: "/assets/dr-aaisha-portrait.jpg",
+    alt_text: "Dr. Aaisha Ojha, BDS Dental Surgeon at Happy Smiles Dental Clinic",
     display_order: 6
   },
   {

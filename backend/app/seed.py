@@ -10,7 +10,7 @@ def seed_database(db: Session):
         admin = Admin(
             username=settings.ADMIN_USERNAME,
             hashed_password=get_password_hash(settings.ADMIN_PASSWORD),
-            full_name="Dr. Aisha Ojha (Admin)"
+            full_name="Dr. Aaisha Ojha (Admin)"
         )
         db.add(admin)
         db.commit()
@@ -32,7 +32,7 @@ def seed_database(db: Session):
                 "title": "Root Canal Treatment",
                 "slug": "root-canal-treatment",
                 "short_description": "Painless single-sitting rotary endodontic therapy to eliminate infection and save natural teeth.",
-                "full_description": "Modern root canal treatment (RCT) cleans the infected pulp chamber and seals root canals precisely. Dr. Aisha Ojha uses rotary files and apex locators for high precision and minimal patient discomfort, preserving your natural tooth structure.",
+                "full_description": "Modern root canal treatment (RCT) cleans the infected pulp chamber and seals root canals precisely. Dr. Aaisha Ojha uses rotary files and apex locators for high precision and minimal patient discomfort, preserving your natural tooth structure.",
                 "icon": "Activity",
                 "display_order": 2,
             },
@@ -72,7 +72,7 @@ def seed_database(db: Session):
                 "title": "Extraction",
                 "slug": "extraction",
                 "short_description": "Gentle, atraumatic removal of decayed teeth and impacted wisdom teeth with quick recovery.",
-                "full_description": "When a tooth cannot be saved through conservative therapy, Dr. Aisha Ojha performs atraumatic extractions with local anesthesia, safeguarding bone contours for future restorations.",
+                "full_description": "When a tooth cannot be saved through conservative therapy, Dr. Aaisha Ojha performs atraumatic extractions with local anesthesia, safeguarding bone contours for future restorations.",
                 "icon": "Scissors",
                 "display_order": 7,
             },
@@ -107,7 +107,7 @@ def seed_database(db: Session):
                 "title": "Official Clinic Banner (High Definition)",
                 "category": "Clinic Exterior",
                 "image_url": "/assets/banner.png",
-                "alt_text": "Official Happy Smiles Dental Clinic banner displaying Dr. Aisha Ojha and clinic services",
+                "alt_text": "Official Happy Smiles Dental Clinic banner displaying Dr. Aaisha Ojha and clinic services",
                 "display_order": 1,
             },
             {
@@ -139,10 +139,10 @@ def seed_database(db: Session):
                 "display_order": 4,
             },
             {
-                "title": "Dr. Aisha Ojha Consulting Patient",
+                "title": "Dr. Aaisha Ojha Consulting Patient",
                 "category": "Doctor",
                 "image_url": "/assets/gallery-doctor.jpg",
-                "alt_text": "Dr. Aisha Ojha (BDS Dental Surgeon) explaining a dental treatment plan",
+                "alt_text": "Dr. Aaisha Ojha (BDS Dental Surgeon) explaining a dental treatment plan",
                 "display_order": 5,
             },
             {
@@ -167,7 +167,7 @@ def seed_database(db: Session):
                 "patient_name": "Rajesh Sharma",
                 "area": "Chandivali, Mumbai",
                 "rating": 5,
-                "review": "Visited Dr. Aisha for root canal treatment. She is very gentle, explained each step patiently, and the procedure was completely pain-free. Very clean and hygienic clinic in Sangharsh Nagar.",
+                "review": "Visited Dr. Aaisha for root canal treatment. She is very gentle, explained each step patiently, and the procedure was completely pain-free. Very clean and hygienic clinic in Sangharsh Nagar.",
                 "is_verified": True,
                 "display_order": 1,
             },
@@ -175,7 +175,7 @@ def seed_database(db: Session):
                 "patient_name": "Pooja Kadam",
                 "area": "Sakinaka, Andheri (E)",
                 "rating": 5,
-                "review": "I was very nervous about getting dental work done, but Dr. Aisha made me feel totally at ease. Got teeth whitening done before my brother's wedding, and the results are fantastic!",
+                "review": "I was very nervous about getting dental work done, but Dr. Aaisha made me feel totally at ease. Got teeth whitening done before my brother's wedding, and the results are fantastic!",
                 "is_verified": True,
                 "display_order": 2,
             },
@@ -191,7 +191,7 @@ def seed_database(db: Session):
                 "patient_name": "Sunita Patil",
                 "area": "Powai / Chandivali Farm Road",
                 "rating": 5,
-                "review": "Brought my mother for her denture fitting. Dr. Aisha took multiple measurements to make sure it was comfortable and not pinching. Very respectful and caring doctor.",
+                "review": "Brought my mother for her denture fitting. Dr. Aaisha took multiple measurements to make sure it was comfortable and not pinching. Very respectful and caring doctor.",
                 "is_verified": True,
                 "display_order": 4,
             },

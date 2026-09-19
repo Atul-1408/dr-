@@ -53,7 +53,7 @@ export default function LocationContact() {
                     {CLINIC_INFO.name}
                   </h3>
                   <p className="text-xs text-[#0A5C67] font-semibold">
-                    Dr. Aisha Ojha • BDS (Dental Surgeon)
+                    Dr. Aaisha Ojha • BDS (Dental Surgeon)
                   </p>
                 </div>
               </div>

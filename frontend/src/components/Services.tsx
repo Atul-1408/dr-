@@ -130,7 +130,7 @@ export default function Services() {
                 Need Guidance on Which Treatment You Need?
               </h3>
               <p className="text-sm text-teal-100/90 max-w-xl">
-                Book a general consultation with Dr. Aisha Ojha (BDS) for a comprehensive diagnosis and transparent recommendations.
+                Book a general consultation with Dr. Aaisha Ojha (BDS) for a comprehensive diagnosis and transparent recommendations.
               </p>
             </div>
           </div>
@@ -211,7 +211,7 @@ export default function Services() {
               <div className="p-4 rounded-2xl bg-teal-50 border border-teal-100 flex items-center justify-between mb-6">
                 <div>
                   <div className="text-xs font-semibold text-[#0A5C67]">Consulting Surgeon</div>
-                  <div className="text-sm font-bold text-slate-800">Dr. Aisha Ojha, BDS</div>
+                  <div className="text-sm font-bold text-slate-800">Dr. Aaisha Ojha, BDS</div>
                 </div>
                 <a
                   href={`tel:${CLINIC_INFO.contact.phone}`}

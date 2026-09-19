@@ -27,7 +27,7 @@ export default function Home() {
       {/* About Section featuring the EXACT supplied clinic banner image on the right */}
       <About />
 
-      {/* Meet Your Dentist: Dr. Aisha Ojha, BDS (Dental Surgeon) */}
+      {/* Meet Your Dentist: Dr. Aaisha Ojha, BDS (Dental Surgeon) */}
       <Doctor />
 
       {/* Clinic Facilities & Equipment Gallery with Lightbox */}

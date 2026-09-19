@@ -58,7 +58,7 @@ export default function Hero() {
 
             {/* Clinic Subheading with Doctor & Location Identification */}
             <p className="text-base sm:text-lg lg:text-xl text-slate-600 leading-relaxed max-w-xl mb-8">
-              <strong className="text-slate-800 font-bold">Happy Smiles Dental Clinic</strong> provides complete, gentle, and modern dental care for all ages under the expert consultation of <strong className="text-[#0A5C67] font-bold">Dr. Aisha Ojha (BDS Dental Surgeon)</strong> in Sakinaka, Andheri East.
+              <strong className="text-slate-800 font-bold">Happy Smiles Dental Clinic</strong> provides complete, gentle, and modern dental care for all ages under the expert consultation of <strong className="text-[#0A5C67] font-bold">Dr. Aaisha Ojha (BDS Dental Surgeon)</strong> in Sakinaka, Andheri East.
             </p>
 
             {/* CTA Buttons */}
@@ -135,8 +135,8 @@ export default function Hero() {
               <div className="flex items-center gap-3">
                 <div className="relative w-12 h-12 rounded-full overflow-hidden shrink-0 border-2 border-[#0A5C67]">
                   <Image
-                    src="/assets/dr-aisha-portrait.jpg"
-                    alt="Dr. Aisha Ojha BDS"
+                    src="/assets/dr-aaisha-portrait.jpg"
+                    alt="Dr. Aaisha Ojha BDS"
                     fill
                     sizes="48px"
                     className="object-cover"
@@ -144,7 +144,7 @@ export default function Hero() {
                 </div>
                 <div>
                   <h4 className="text-sm font-bold text-[#0F172A] leading-tight">
-                    Dr. Aisha Ojha
+                    Dr. Aaisha Ojha
                   </h4>
                   <p className="text-xs font-semibold text-[#0A5C67] mt-0.5">
                     BDS (Dental Surgeon)

@@ -18,12 +18,12 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: 'Happy Smiles Dental Clinic | Dr. Aisha Ojha (BDS) - Sakinaka, Andheri East, Mumbai',
+  title: 'Happy Smiles Dental Clinic | Dr. Aaisha Ojha (BDS) - Sakinaka, Andheri East, Mumbai',
   description:
-    'Happy Smiles Dental Clinic in Sakinaka, Andheri (E), Mumbai. Led by Dr. Aisha Ojha, BDS (Dental Surgeon). Expert teeth whitening, root canal treatment, laser therapy, dental implants, crowns & dentures. Call 9029131396.',
+    'Happy Smiles Dental Clinic in Sakinaka, Andheri (E), Mumbai. Led by Dr. Aaisha Ojha, BDS (Dental Surgeon). Expert teeth whitening, root canal treatment, laser therapy, dental implants, crowns & dentures. Call 9029131396.',
   keywords: [
     'Happy Smiles Dental Clinic',
-    'Dr Aisha Ojha',
+    'Dr Aaisha Ojha',
     'Dentist in Sakinaka',
     'Dental Clinic Andheri East',
     'Sangharsh Nagar Dentist',
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     'BDS Dental Surgeon Mumbai',
     'Emergency Dentist Sakinaka',
   ],
-  authors: [{ name: 'Dr. Aisha Ojha' }],
+  authors: [{ name: 'Dr. Aaisha Ojha' }],
   creator: 'Happy Smiles Dental Clinic',
   metadataBase: new URL('https://happysmilesdental.in'),
   alternates: {
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Happy Smiles Dental Clinic | Complete Dental Care in Sakinaka, Mumbai',
     description:
-      'Complete Dental Care with Every Smile. Consult Dr. Aisha Ojha, BDS Dental Surgeon at Sangharsh Nagar, Sakinaka, Andheri East. Call 9029131396.',
+      'Complete Dental Care with Every Smile. Consult Dr. Aaisha Ojha, BDS Dental Surgeon at Sangharsh Nagar, Sakinaka, Andheri East. Call 9029131396.',
     url: 'https://happysmilesdental.in',
     siteName: 'Happy Smiles Dental Clinic',
     images: [
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
         url: '/assets/happy-smiles-banner.png',
         width: 1200,
         height: 675,
-        alt: 'Happy Smiles Dental Clinic Official Banner - Dr. Aisha Ojha BDS',
+        alt: 'Happy Smiles Dental Clinic Official Banner - Dr. Aaisha Ojha BDS',
       },
     ],
     locale: 'en_IN',
@@ -59,7 +59,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Happy Smiles Dental Clinic | Dr. Aisha Ojha BDS',
+    title: 'Happy Smiles Dental Clinic | Dr. Aaisha Ojha BDS',
     description: 'Complete Dental Care with modern technology in Sakinaka, Andheri East, Mumbai.',
     images: ['/assets/happy-smiles-banner.png'],
   },
@@ -127,7 +127,7 @@ export default function RootLayout({
     ],
     employee: {
       '@type': 'Person',
-      name: 'Dr. Aisha Ojha',
+      name: 'Dr. Aaisha Ojha',
       jobTitle: 'Dental Surgeon',
       honorificPrefix: 'Dr.',
       hasCredential: {

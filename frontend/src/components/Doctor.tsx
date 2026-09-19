@@ -50,8 +50,8 @@ export default function Doctor() {
               
               <div className="relative rounded-3xl overflow-hidden border-2 border-white/20 shadow-2xl aspect-square bg-teal-900/40">
                 <Image
-                  src="/assets/dr-aisha-portrait.jpg"
-                  alt="Dr. Aisha Ojha - BDS Dental Surgeon"
+                  src="/assets/dr-aaisha-portrait.jpg"
+                  alt="Dr. Aaisha Ojha - BDS Dental Surgeon"
                   fill
                   sizes="(max-width: 768px) 90vw, 400px"
                   className="object-cover object-center"
@@ -63,7 +63,7 @@ export default function Doctor() {
                 {/* Bottom Tag inside photo */}
                 <div className="absolute bottom-4 left-4 right-4 text-center bg-black/40 backdrop-blur-md py-2 px-3 rounded-xl border border-white/15">
                   <span className="text-xs font-semibold text-teal-200">
-                    Dr. Aisha Ojha • BDS (Dental Surgeon)
+                    Dr. Aaisha Ojha • BDS (Dental Surgeon)
                   </span>
                 </div>
               </div>
@@ -86,7 +86,7 @@ export default function Doctor() {
 
             {/* Doctor Name & Title */}
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight mb-2">
-              Dr. Aisha Ojha
+              Dr. Aaisha Ojha
             </h2>
             <div className="text-xl sm:text-2xl font-semibold text-teal-200 mb-6">
               BDS (Dental Surgeon)
@@ -173,14 +173,14 @@ export default function Doctor() {
               <div className="flex items-center gap-4 mb-5">
                 <div className="relative w-16 h-16 rounded-2xl overflow-hidden border-2 border-teal-600 shrink-0">
                   <Image
-                    src="/assets/dr-aisha-portrait.jpg"
-                    alt="Dr. Aisha Ojha"
+                    src="/assets/dr-aaisha-portrait.jpg"
+                    alt="Dr. Aaisha Ojha"
                     fill
                     className="object-cover"
                   />
                 </div>
                 <div>
-                  <h3 className="text-2xl font-bold text-slate-900">Dr. Aisha Ojha</h3>
+                  <h3 className="text-2xl font-bold text-slate-900">Dr. Aaisha Ojha</h3>
                   <p className="text-sm font-semibold text-[#0A5C67]">BDS (Dental Surgeon)</p>
                   <p className="text-xs text-slate-500">Happy Smiles Dental Clinic</p>
                 </div>
@@ -188,7 +188,7 @@ export default function Doctor() {
 
               <div className="space-y-4 text-sm text-slate-600 leading-relaxed">
                 <p>
-                  <strong>Dr. Aisha Ojha</strong> is a dedicated dental practitioner holding a Bachelor of Dental Surgery (BDS) degree. She leads Happy Smiles Dental Clinic in Sangharsh Nagar, Sakinaka, providing personalized and ethical dental care for the residents of Andheri East, Chandivali, and neighboring Powai.
+                  <strong>Dr. Aaisha Ojha</strong> is a dedicated dental practitioner holding a Bachelor of Dental Surgery (BDS) degree. She leads Happy Smiles Dental Clinic in Sangharsh Nagar, Sakinaka, providing personalized and ethical dental care for the residents of Andheri East, Chandivali, and neighboring Powai.
                 </p>
 
                 <h4 className="text-sm font-bold text-slate-800 pt-2">Clinical Care Areas:</h4>

@@ -21,7 +21,7 @@ async def lifespan(app: FastAPI):
 app = FastAPI(
     title=settings.PROJECT_NAME,
     version=settings.VERSION,
-    description="Production API for Happy Smiles Dental Clinic (Dr. Aisha Ojha, BDS)",
+    description="Production API for Happy Smiles Dental Clinic (Dr. Aaisha Ojha, BDS)",
     lifespan=lifespan
 )
 
@@ -49,7 +49,7 @@ app.include_router(contact.router, prefix=settings.API_V1_STR)
 def root():
     return {
         "clinic": settings.CLINIC_NAME,
-        "doctor": "Dr. Aisha Ojha, BDS (Dental Surgeon)",
+        "doctor": "Dr. Aaisha Ojha, BDS (Dental Surgeon)",
         "phone": settings.CLINIC_PHONE,
         "status": "online",
         "version": settings.VERSION,

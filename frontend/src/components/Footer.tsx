@@ -29,7 +29,7 @@ export default function Footer() {
             </p>
 
             <p className="text-xs text-teal-200/80 leading-relaxed mb-6 max-w-sm">
-              Providing personalized, gentle, and modern dental treatments in Sakinaka, Andheri (E), Mumbai under the expert clinical guidance of Dr. Aisha Ojha (BDS Dental Surgeon).
+              Providing personalized, gentle, and modern dental treatments in Sakinaka, Andheri (E), Mumbai under the expert clinical guidance of Dr. Aaisha Ojha (BDS Dental Surgeon).
             </p>
 
             {/* Social Icons */}
@@ -153,7 +153,7 @@ export default function Footer() {
           <p>© {currentYear} Happy Smiles Dental Clinic. All rights reserved.</p>
           
           <div className="flex items-center gap-4">
-            <span className="text-teal-400/80">Dr. Aisha Ojha, BDS (Dental Surgeon)</span>
+            <span className="text-teal-400/80">Dr. Aaisha Ojha, BDS (Dental Surgeon)</span>
             <Link
               href="/admin"
               className="text-teal-300 hover:text-white underline text-[11px]"

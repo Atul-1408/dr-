@@ -49,7 +49,7 @@ export default function NotFound() {
 
       {/* Footer minimal */}
       <footer className="py-6 text-center text-xs text-slate-400 border-t border-slate-200">
-        © 2026 Happy Smiles Dental Clinic • Dr. Aisha Ojha, BDS
+        © 2026 Happy Smiles Dental Clinic • Dr. Aaisha Ojha, BDS
       </footer>
     </div>
   );

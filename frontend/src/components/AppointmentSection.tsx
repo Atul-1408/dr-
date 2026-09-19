@@ -130,22 +130,22 @@ export default function AppointmentSection() {
               </h2>
 
               <p className="text-base text-slate-600 font-medium mb-6 leading-relaxed">
-                Take the first step toward a healthier, more confident smile. Request an appointment slot with <strong>Dr. Aisha Ojha, BDS (Dental Surgeon)</strong> at Happy Smiles Dental Clinic in Sakinaka.
+                Take the first step toward a healthier, more confident smile. Request an appointment slot with <strong>Dr. Aaisha Ojha, BDS (Dental Surgeon)</strong> at Happy Smiles Dental Clinic in Sakinaka.
               </p>
 
               {/* Doctor Reassurance Pill */}
               <div className="p-4 rounded-2xl bg-white border border-slate-200 shadow-xs mb-6 flex items-center gap-3.5">
                 <div className="relative w-12 h-12 rounded-full overflow-hidden shrink-0 border-2 border-[#0A5C67]">
                   <Image
-                    src="/assets/dr-aisha-portrait.jpg"
-                    alt="Dr. Aisha Ojha"
+                    src="/assets/dr-aaisha-portrait.jpg"
+                    alt="Dr. Aaisha Ojha"
                     fill
                     sizes="48px"
                     className="object-cover"
                   />
                 </div>
                 <div>
-                  <h4 className="text-sm font-bold text-slate-900 leading-tight">Dr. Aisha Ojha</h4>
+                  <h4 className="text-sm font-bold text-slate-900 leading-tight">Dr. Aaisha Ojha</h4>
                   <p className="text-xs font-semibold text-[#0A5C67]">BDS (Dental Surgeon)</p>
                   <p className="text-[11px] text-slate-500">Sangharsh Nagar, Sakinaka, Andheri (E)</p>
                 </div>
@@ -212,7 +212,7 @@ export default function AppointmentSection() {
                 </p>
 
                 <p className="text-sm text-slate-500 max-w-md mb-8 leading-relaxed">
-                  Our clinic reception will contact you shortly on <strong>{formData.phone}</strong> to confirm your slot with Dr. Aisha Ojha.
+                  Our clinic reception will contact you shortly on <strong>{formData.phone}</strong> to confirm your slot with Dr. Aaisha Ojha.
                 </p>
 
                 <div className="p-4 rounded-2xl bg-teal-50 border border-teal-100 max-w-md w-full text-xs text-slate-700 text-left mb-8 space-y-1.5">
